@@ -42,14 +42,20 @@ header .nav-bar {
 }
 
 .nav-bar a {
-    padding-bottom: 7px;
+    padding-bottom: 10px;
 }
 
 .nav-bar a:hover {
     border-bottom: 3px solid #3367d6;
 }
 
-.title {
+.header-title {
     color: #5F6368;
     font-size: 25px;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 100px;
+    max-width: 1100px;
 }
