@@ -10,10 +10,33 @@
 <body>
 
   <header>
-      <a href="#" class="google-logo"><img src="./img/Google_2015_logo.svg" alt="logo"></a>
-      <h3>Privacy e Termini</h3>
+      <div class="logo-container">
 
-      
+          <a href="#" class="google-logo"><img src="https://logos-download.com/wp-content/uploads/2016/02/Google_Logo_2015.png" alt="logo"></a>
+          <h4 class="title">Privacy e Termini</h4>
+      </div>
+
+
+      <?php
+        $nav = [
+            'Introduzione',
+            'Norme sulla privacy',
+            'Termini di servizio',
+            'Tecnologie',
+            'Domande frequenti',
+        ];
+        ?>
+        <ul class="nav-bar">
+            <?php
+            foreach ($nav as $value) {
+            ?>
+                <li><a class="header-navigation" href="#"><?= $value ?></a></li>
+            <?php
+            }
+            ?>
+        </ul>
+
+
   </header>
     
 </body>

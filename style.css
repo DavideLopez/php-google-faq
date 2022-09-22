@@ -9,3 +9,47 @@ a {
     text-decoration: none;
 }
 
+.google-logo img {
+    width: 90px;
+}
+
+header {
+    padding: 10px 18px;
+    box-shadow: 0 1px 1px rgba(128, 128, 128, 0.685);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%);
+    color: #494e51;
+}
+
+.header-navigation{
+    color: #5F6368;
+}
+
+.logo-container {
+    display: flex;
+}
+
+header .nav-bar {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 5px;
+    margin: 0 6px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.nav-bar a {
+    padding-bottom: 7px;
+}
+
+.nav-bar a:hover {
+    border-bottom: 3px solid #3367d6;
+}
+
+.title {
+    color: #5F6368;
+    font-size: 25px;
+}
