@@ -9,8 +9,9 @@ a {
     text-decoration: none;
 }
 
+   /* PARTE HEADER */
 .google-logo img {
-    width: 90px;
+    width: 75px;
 }
 
 header {
@@ -30,10 +31,10 @@ header {
 
 header .nav-bar {
     list-style: none;
-    font-size: 1rem;
-    font-weight: bold;
-    padding-top: 5px;
-    margin: 0 6px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+    margin: 0 8px;
 }
 
 .nav-bar li {
@@ -54,8 +55,84 @@ header .nav-bar {
     font-size: 25px;
 }
 
+
+           /* PARTE DEL CONTENUTO/MAIN */
 .container {
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     max-width: 1100px;
+}
+
+main .title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 50px;
+    
+}
+
+main .subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 0.88rem;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+main a{
+    color: #3367d6;
+}
+
+main ol {
+    margin-left: 15px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+main ol > ol {
+    list-style: lower-alpha;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+main ol > li {
+    padding-left: 15px;
+    margin-bottom: 12px;
+}
+
+/* PARTE FOOTER */
+
+.footer-container {
+    height: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: lightgray;
+}
+
+.footer-nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+.footer-nav a{
+    color: grey;
+}
+
+.footer-container select{
+    width: 180px;
 }
