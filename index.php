@@ -136,10 +136,14 @@
                 </ul>     
             </div>
             <div>
-            <select name="language" id="langauge">
+            <select class="lang">
                 <option value="italian">Italiano</option>
                 <option value="english">English</option>
                 <option value="espanol">Español</option>
+                <option value="Chinese">Chinese</option>
+                <option value="français">Français</option>
+                <option value="deutsche">Deutsche</option>
+                
             </select>
             </div>
         </div> 
